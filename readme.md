@@ -1,0 +1,2 @@
+#Introduction to git & Github
+Taught by [Tom Meagher](http://www.tommeagher.com/) at IRE's 2013 [Computer-Assisted Reporting conference](http://www.ire.org/conferences/nicar-2013/) in Louisville, Kentucky.
