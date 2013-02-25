@@ -100,18 +100,18 @@ Push merges to Github
 
 
 ##Cheats from the experts
-From Matt Terenzio, "for a complete fresh start,"
+From [Matt Terenzio] (https://twitter.com/mterenzio), "for a complete fresh start,"
 
 	git fetch --all git reset --hard origin/master
 
 
-Always fetch and merge instead of pulling. "Takes a little more time, but prevents many headaches," from Al Shaw
+Always fetch and merge instead of pulling. "Takes a little more time, but prevents many headaches," from [Al Shaw] (http://www.twitter.com/a_l)
 
 Resolve merge conflicts with this, "cause that’s what you want 99% of the time," from Al Shaw. More on this technique [here](http://gitready.com/advanced/2009/02/25/keep-either-file-in-merge-conflicts.html).
 
 	git checkout --(ours|theirs).
 
-From Jeff Larson, this command pops open a GUI to help resolve merge conflicts
+From [Jeff Larson] (https://twitter.com/thejefflarson), this command pops open a GUI to help resolve merge conflicts
 
 	git mergetools
 
