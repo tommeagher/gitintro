@@ -111,7 +111,7 @@ Resolve merge conflicts with this, "cause that’s what you want 99% of the time,"
 
 	git checkout --(ours|theirs).
 
-From [Jeff Larson] (https://twitter.com/thejefflarson), this command pops open a GUI to help resolve merge conflicts
+From [Jeff Larson] (https://twitter.com/thejefflarson), this command pops open a GUI (in OS X) to help resolve merge conflicts:
 
 	git mergetools
 
