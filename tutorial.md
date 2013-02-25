@@ -4,15 +4,16 @@
 Before you start, configure ssh on your machine and connect to Github. Follow these simple tutorials to get set up, [Part 1] (https://help.github.com/articles/set-up-git) and [Part 2] (https://help.github.com/articles/generating-ssh-keys)
 
 ###Make an existing directory on your local machine a git repo:
-**git init** (ie: initialize this folder as a git repository)
+	git init 
+(ie: initialize this folder as a git repository)
 
 ###Make a new repo out of thin air: 
-**git init PROJECT_DIR_NAME_HERE**
+	git init PROJECT_DIR_NAME_HERE
 
 ###Connect your local repository to the remote on Github
 Make the repo in github and grab the ssh address
 
-**git remote add NAME_THE_REMOTE_HOST git@github.com:GITHUB_ACCOUNT_NAME/NAME_OF_REPO.git**
+	git remote add NAME_THE_REMOTE_HOST git@github.com:GITHUB_ACCOUNT_NAME/NAME_OF_REPO.git
 	git remote add origin git@github.com:tommeagher/gitintro.git
 
 <em>For more on the "origin" remote, [read this] (http://gitimmersion.com/lab_39.html)</em>
@@ -20,25 +21,28 @@ Make the repo in github and grab the ssh address
 ###Take a snapshot of your changed files with "commit":
 Create new files in your local repository folder
 
-**git status** (tells you what files have changed)
+	git status
+(tells you what files have changed)
 
-**git add FILENAME** (stages individual files to be committed or git add . to stage them all)
+	git add FILENAME
+(stages individual files to be committed or git add . to stage them all)
 
-**git commit** –m "COMMIT MESSAGE"
+	git commit –m "COMMIT MESSAGE"
 
 After you've added the file to staging once, you can do both of these commands in one:
 
-**git commit -am "NEW COMMIT MESSAGE"**
+	git commit -am "NEW COMMIT MESSAGE"
 
 ###Send your committed file changes to the remote host at Github by pushing:
-**git push –u NAME_THE_REMOTE_HOST BRANCH_TO_COMMIT**
+	git push –u NAME_THE_REMOTE_HOST BRANCH_TO_COMMIT
 
 	git push –u origin master
 
 ###Grab and merge changes from the remote host to your local repo:
-**Git pull NAME_THE_REMOTE_HOST BRANCH_TO_COMMIT**
+	Git pull NAME_THE_REMOTE_HOST BRANCH_TO_COMMIT
 	
-	git pull origin master (or simply git pull)
+	git pull origin master 
+(or simply git pull)
 
 Alternatively, you can fetch the changes and merge them in manually, which some users suggest to avoid painful merges. 
 	
@@ -52,22 +56,27 @@ Alternatively, you can fetch the changes and merge them in manually, which some 
 	git clone git@github.com:tommeagher/gitintro.git
 
 ###Branching
-**git branch** (shows you all the branch names and which one you are working on) 
+	git branch
+(shows you all the branch names and which one you are working on) 
 
-**git branch BRANCHNAME** (creates new branch. Name can be whatever you want)
+	git branch BRANCHNAME
+(creates new branch. Name can be whatever you want)
 
-**git checkout BRANCHNAME** (switches to branch)
+	git checkout BRANCHNAME
+(switches to branch)
 
 Note: when you want to push changes from your branch, you would use
 
-**git push origin BRANCHNAME**
+	git push origin BRANCHNAME
 
 ###Merging back to master
-**git checkout master** (switch back to master branch)
+	git checkout master
+(switch back to master branch)
 
-**git merge BRANCHNAME** (merge your branch to master)
+	git merge BRANCHNAME
+(merge your branch to master)
 
-**git push origin master**
+	git push origin master
 
 
 ##Great resources for further reading
