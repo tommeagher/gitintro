@@ -115,6 +115,6 @@ From [Jeff Larson] (https://twitter.com/thejefflarson), this command pops open a
 
 	git mergetools
 
-This handy command tells you who made the changes to each file in a commit. This [and a bunch more good ones] (http://sunlightfoundation.com/blog/2010/07/16/a-few-git-tips/) are from Sunlight Foundation. 
+This handy command tells you who made the changes to each file in a commit. This [and a bunch more] (http://sunlightfoundation.com/blog/2010/07/16/a-few-git-tips/) are from Sunlight Foundation. 
 
 	git blame
