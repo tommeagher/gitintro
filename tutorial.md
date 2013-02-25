@@ -13,7 +13,7 @@ Before you start, configure ssh on your machine and connect to Github. Follow th
 Make the repo in github and grab the ssh address
 
 **git remote add NAME_THE_REMOTE_HOST git@github.com:GITHUB_ACCOUNT_NAME/NAME_OF_REPO.git**
->git remote add origin git@github.com:tommeagher/gitintro.git
+	git remote add origin git@github.com:tommeagher/gitintro.git
 
 <em>For more on the "origin" remote, [read this] (http://gitimmersion.com/lab_39.html)</em>
 
@@ -33,23 +33,23 @@ After you've added the file to staging once, you can do both of these commands i
 ###Send your committed file changes to the remote host at Github by pushing:
 **git push –u NAME_THE_REMOTE_HOST BRANCH_TO_COMMIT**
 
-	**git push –u origin master**
+	git push –u origin master
 
 ###Grab and merge changes from the remote host to your local repo:
 1. **Git pull NAME_THE_REMOTE_HOST BRANCH_TO_COMMIT**
 	
-	**git pull origin master** (or simply git pull)
+	git pull origin master (or simply git pull)
 
 2. Alternatively, you can fetch the changes and merge them in manually, which some users suggest to avoid painful merges. 
 	
-	A. **git fetch origin**
+	git fetch origin
 	
-	B. **git merge origin master**
+	git merge origin master
 
 ###Clone an existing repo from Github to your local machine:
 **git clone REPO_ADDRESS**
 
-	**git clone git@github.com:tommeagher/gitintro.git**
+	git clone git@github.com:tommeagher/gitintro.git
 
 ###Branching
 **git branch** (shows you all the branch names and which one you are working on) 
@@ -71,14 +71,14 @@ Note: when you want to push changes from your branch, you would use
 
 
 ##Great resources for further reading
-*[An easy intro guide to git] (http://rogerdudler.github.com/git-guide/)
-*[Git reference] (http://gitref.org/)
-*[Pro Git] (http://git-scm.com/), the free html book
-*Code Schools free [Try Git] (http://www.codeschool.com/courses/try-git) course
-*A good [cheat sheet] (http://martinadams.tumblr.com/post/37209901794/git-cheat-sheet)
-*[Lord of the Files] (http://www.wired.com/wiredenterprise/2012/02/github/all/), the Wired story on git and Github
-*News apps team's [best commit messages of 2012] (http://www.niemanlab.org/2012/12/updated-horse-parser-the-year-in-journo-code-commit-messages/), from Nieman Lab.
-*[Commit logs from last night] (http://www.commitlogsfromlastnight.com/)
++ [An easy intro guide to git] (http://rogerdudler.github.com/git-guide/)
++ [Git reference] (http://gitref.org/)
++ [Pro Git] (http://git-scm.com/), the free html book
++ Code Schools free [Try Git] (http://www.codeschool.com/courses/try-git) course
++ A good [cheat sheet] (http://martinadams.tumblr.com/post/37209901794/git-cheat-sheet)
++ [Lord of the Files] (http://www.wired.com/wiredenterprise/2012/02/github/all/), the Wired story on git and Github
++ News apps team's [best commit messages of 2012] (http://www.niemanlab.org/2012/12/updated-horse-parser-the-year-in-journo-code-commit-messages/), from Nieman Lab.
++ [Commit logs from last night] (http://www.commitlogsfromlastnight.com/)
 
 
 ##Cheats from the experts
