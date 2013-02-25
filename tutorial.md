@@ -16,6 +16,7 @@ Make the repo in github and grab the ssh address
 	git remote add NAME_THE_REMOTE_HOST git@github.com:GITHUB_ACCOUNT_NAME/NAME_OF_REPO.git
 
 An example:
+
 	git remote add origin git@github.com:tommeagher/gitintro.git
 
 <em>For more on the "origin" remote, [read this] (http://gitimmersion.com/lab_39.html)</em>
@@ -38,11 +39,13 @@ After you've added the file to staging once, you can do both of these commands i
 ###Send your committed file changes to the remote host at Github by pushing:
 	git push –u NAME_THE_REMOTE_HOST BRANCH_TO_COMMIT
 Like so: 
+
 	git push –u origin master
 
 ###Grab and merge changes from the remote host to your local repo:
 	Git pull NAME_THE_REMOTE_HOST BRANCH_TO_COMMIT
 Looks like this:	
+
 	git pull origin master 
 (or simply git pull)
 
@@ -92,18 +95,21 @@ Note: when you want to push changes from your branch, you would use
 
 
 ##Cheats from the experts
+From Matt Terenzio, "for a complete fresh start,"
+
 	git fetch --all git reset --hard origin/master
-from Matt Terenzio, "for a complete fresh start"
 
-+ Always fetch and merge instead of pulling. "Takes a little more time, but prevents many headaches," from Al Shaw
 
+Always fetch and merge instead of pulling. "Takes a little more time, but prevents many headaches," from Al Shaw
 
 "Resolving merge conflicts with
+
 	git checkout --(ours|theirs).
+
 Cause that’s what you want 99% of the time," from Al Shaw. More on this technique [here](http://gitready.com/advanced/2009/02/25/keep-either-file-in-merge-conflicts.html).
 
 	git mergetools
-from Jeff Larson, which pops open a GUI to help resolve merge conflicts
+from Jeff Larson, pops open a GUI to help resolve merge conflicts
 
 	git blame
 tells you who made the changes to each file in a commit. This [and a bunch more good ones] (http://sunlightfoundation.com/blog/2010/07/16/a-few-git-tips/) are from Sunlight Foundation.
