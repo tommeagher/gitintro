@@ -38,13 +38,13 @@ After you've added the file to staging once, you can do both of these commands i
 ###Grab and merge changes from the remote host to your local repo:
 1. **Git pull NAME_THE_REMOTE_HOST BRANCH_TO_COMMIT**
 	
-	git pull origin master (or simply git pull)
+		git pull origin master (or simply git pull)
 
 2. Alternatively, you can fetch the changes and merge them in manually, which some users suggest to avoid painful merges. 
 	
-	git fetch origin
+		git fetch origin
 	
-	git merge origin master
+		git merge origin master
 
 ###Clone an existing repo from Github to your local machine:
 **git clone REPO_ADDRESS**
