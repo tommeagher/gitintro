@@ -13,8 +13,7 @@ Before you start, configure ssh on your machine and connect to Github. Follow th
 Make the repo in github and grab the ssh address
 
 **git remote add NAME_THE_REMOTE_HOST git@github.com:GITHUB_ACCOUNT_NAME/NAME_OF_REPO.git**
-
-	**git remote add origin git@github.com:tommeagher/gitintro.git**
+>git remote add origin git@github.com:tommeagher/gitintro.git
 
 <em>For more on the "origin" remote, [read this] (http://gitimmersion.com/lab_39.html)</em>
 
