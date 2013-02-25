@@ -55,30 +55,35 @@ Alternatively, you can fetch the changes and merge them in manually, which some 
 	git merge origin master
 
 ###Clone an existing repo from Github to your local machine:
-**git clone REPO_ADDRESS**
+	git clone REPO_ADDRESS
+Like this:
 
 	git clone git@github.com:tommeagher/gitintro.git
 
 ###Branching
 	git branch
-(shows you all the branch names and which one you are working on) 
+Shows you all the branch names and which one you are working on
 
 	git branch BRANCHNAME
-(creates new branch. Name can be whatever you want)
+Creates new branch. Name can be whatever you want
 
 	git checkout BRANCHNAME
-(switches to branch)
+Switches to branch
 
 Note: when you want to push changes from your branch, you would use
 
 	git push origin BRANCHNAME
 
 ###Merging back to master
+Switch back to master branch
+
 	git checkout master
-(switch back to master branch)
+
+Merge your branch to master
 
 	git merge BRANCHNAME
-(merge your branch to master)
+
+Push merges to Github
 
 	git push origin master
 
@@ -95,24 +100,21 @@ Note: when you want to push changes from your branch, you would use
 
 
 ##Cheats from the experts
-1. From Matt Terenzio, "for a complete fresh start,"
+From Matt Terenzio, "for a complete fresh start,"
 
 	git fetch --all git reset --hard origin/master
 
 
-2. Always fetch and merge instead of pulling. "Takes a little more time, but prevents many headaches," from Al Shaw
+Always fetch and merge instead of pulling. "Takes a little more time, but prevents many headaches," from Al Shaw
 
-3. "Resolving merge conflicts with
+Resolve merge conflicts with this, "cause that’s what you want 99% of the time," from Al Shaw. More on this technique [here](http://gitready.com/advanced/2009/02/25/keep-either-file-in-merge-conflicts.html).
 
 	git checkout --(ours|theirs).
 
-Cause that’s what you want 99% of the time," from Al Shaw. More on this technique [here](http://gitready.com/advanced/2009/02/25/keep-either-file-in-merge-conflicts.html).
-
-4. 
+From Jeff Larson, this command pops open a GUI to help resolve merge conflicts
 
 	git mergetools
-from Jeff Larson, pops open a GUI to help resolve merge conflicts
 
-5. 
+This handy command tells you who made the changes to each file in a commit. This [and a bunch more good ones] (http://sunlightfoundation.com/blog/2010/07/16/a-few-git-tips/) are from Sunlight Foundation. 
+
 	git blame
-tells you who made the changes to each file in a commit. This [and a bunch more good ones] (http://sunlightfoundation.com/blog/2010/07/16/a-few-git-tips/) are from Sunlight Foundation.
