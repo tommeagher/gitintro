@@ -95,21 +95,24 @@ Note: when you want to push changes from your branch, you would use
 
 
 ##Cheats from the experts
-From Matt Terenzio, "for a complete fresh start,"
+1. From Matt Terenzio, "for a complete fresh start,"
 
 	git fetch --all git reset --hard origin/master
 
 
-Always fetch and merge instead of pulling. "Takes a little more time, but prevents many headaches," from Al Shaw
+2. Always fetch and merge instead of pulling. "Takes a little more time, but prevents many headaches," from Al Shaw
 
-"Resolving merge conflicts with
+3. "Resolving merge conflicts with
 
 	git checkout --(ours|theirs).
 
 Cause that’s what you want 99% of the time," from Al Shaw. More on this technique [here](http://gitready.com/advanced/2009/02/25/keep-either-file-in-merge-conflicts.html).
 
+4. 
+
 	git mergetools
 from Jeff Larson, pops open a GUI to help resolve merge conflicts
 
+5. 
 	git blame
 tells you who made the changes to each file in a commit. This [and a bunch more good ones] (http://sunlightfoundation.com/blog/2010/07/16/a-few-git-tips/) are from Sunlight Foundation.
