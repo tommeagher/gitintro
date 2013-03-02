@@ -7,10 +7,11 @@ If you're interested in the concepts behind basic git use, [try this class](http
 
 ###Make an existing directory on your local machine a git repo:
 	git init 
-(ie: initialize this folder as a git repository)
+(ie: initialize the folder I'm currently working in as a git repository)
 
 ###Make a new repo out of thin air: 
 	git init PROJECT_DIR_NAME_HERE
+This makes the directory and initializes it as a git repo.
 
 ###Connect your local repository to the remote on Github
 Make the repo in github and grab the ssh address
