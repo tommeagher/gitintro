@@ -55,7 +55,7 @@ Looks like this:
 Alternatively, you can fetch the changes and merge them in manually, which some users suggest to avoid painful merges. 
 	
 	git fetch origin
-	git merge origin master
+	git merge origin/master
 
 ###Clone an existing repo from Github to your local machine:
 	git clone REPO_ADDRESS
