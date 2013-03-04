@@ -1,7 +1,7 @@
 #Your first Git cheatsheet
 ##Fork it, improve it and send me a pull request
 
-Before you start, [install git](https://help.github.com/articles/set-up-git) and configure ssh on your machine and connect to Github. Follow these simple tutorials to generate ssh, [Part 1] (https://help.github.com/articles/set-up-git) and [Part 2] (https://help.github.com/articles/generating-ssh-keys)
+Before you start, [install git](https://help.github.com/articles/set-up-git) and configure ssh keys on your machine and connect to Github. Follow these simple tutorials to generate ssh, [Part 1] (https://help.github.com/articles/set-up-git) and [Part 2] (https://help.github.com/articles/generating-ssh-keys)
 
 If you're interested in the concepts behind basic git use, [try this class](http://bit.ly/car13git). Then come back here.
 
