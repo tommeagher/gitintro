@@ -52,7 +52,7 @@ Looks like this:
 	git pull origin master 
 (or simply git pull)
 
-Alternatively, you can fetch the changes and merge them in manually, which some users suggest to avoid painful merges. 
+Alternatively, you can fetch the changes and merge them in manually, which some users suggest to avoid potentially painful merges. 
 	
 	git fetch origin
 	git merge origin/master
