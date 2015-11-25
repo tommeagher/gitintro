@@ -33,17 +33,17 @@ Create new files in your local repository folder
 	git add FILENAME
 (stages individual files to be committed or git add . to stage them all)
 
-	git commit –m "COMMIT MESSAGE"
+	git commit â€“m "COMMIT MESSAGE"
 
 After you've added the file to staging once, you can do both of these commands in one:
 
 	git commit -am "NEW COMMIT MESSAGE"
 
 ###Send your committed file changes to the remote host at Github by pushing:
-	git push –u NAME_THE_REMOTE_HOST BRANCH_TO_COMMIT
+	git push â€“u NAME_THE_REMOTE_HOST BRANCH_TO_COMMIT
 Like so: 
 
-	git push –u origin master
+	git push â€“u origin master
 
 ###Grab and merge changes from the remote host to your local repo:
 	Git pull NAME_THE_REMOTE_HOST BRANCH_TO_COMMIT
@@ -110,13 +110,13 @@ From [Matt Terenzio] (https://twitter.com/mterenzio), "for a complete fresh star
 
 Always fetch and merge instead of pulling. "Takes a little more time, but prevents many headaches," from [Al Shaw] (http://www.twitter.com/a_l)
 
-Resolve merge conflicts with this, "cause that’s what you want 99% of the time," from Al Shaw. More on this technique [here](http://gitready.com/advanced/2009/02/25/keep-either-file-in-merge-conflicts.html).
+Resolve merge conflicts with this, "cause thatâ€™s what you want 99% of the time," from Al Shaw. More on this technique [here](http://gitready.com/advanced/2009/02/25/keep-either-file-in-merge-conflicts.html).
 
 	git checkout --(ours|theirs).
 
 From [Jeff Larson] (https://twitter.com/thejefflarson), this command pops open a GUI (in OS X) to help resolve merge conflicts:
 
-	git mergetools
+	git mergetool
 
 This handy command tells you who made the changes to each file in a commit. This [and a bunch more] (http://sunlightfoundation.com/blog/2010/07/16/a-few-git-tips/) are from Sunlight Foundation. 
 
